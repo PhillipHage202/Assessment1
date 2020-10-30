@@ -101,13 +101,12 @@ def two(input1):
 	# No Hints for this question
 
 def three(arg1):
-	
 	if arg1 % 3 == 0 and arg1 % 5 == 0:
-        return "fizzbuzz"
-    if arg1 % 5 == 0:
-        return "buzz"
-    if arg1 % 3 == 0:
-        return "fizz"
+		return "fizzbuzz"
+	if arg1 % 5 == 0:
+		return "buzz"
+	if arg1 % 3 == 0:
+		return "fizz"
 
     
 	return "null"
@@ -180,8 +179,8 @@ def five(input):
     the_Guys = []
 
     for i in range(len(theList)):
-		if(theList[i] == "False"):
-			the_Guys.append(theList[i-2])
+	if(theList[i] == "False"):
+	the_Guys.append(theList[i-2])
 	return the_Guys
 	
 
@@ -227,8 +226,8 @@ def seven(getVowels):
     str = getVowels.lower()
     counter = 0
     for c in str:
-		if(c == "a" or c == "e" or c == "i" or c == "o" or c == "u"):
-			counter = counter + 1
+	if(c == "a" or c == "e" or c == "i" or c == "o" or c == "u"):
+		counter = counter + 1
 
     return counter
 
